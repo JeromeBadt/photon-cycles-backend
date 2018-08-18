@@ -25,7 +25,7 @@ class TrustProxies extends Middleware
     public function __construct(Repository $config)
     {
         parent::__construct($config);
-        if (env('CLOUD_ENV') === 'heroku') {
+        if (config('app.cloud_provider') === 'heroku') {
             $this->proxies = "*";
             $this->headers = Request::HEADER_X_FORWARDED_AWS_ELB;
         }

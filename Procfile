@@ -1,2 +1,2 @@
-release: php artisan migrate --seed
-web: vendor/bin/heroku-php-nginx public/
+release: php artisan config:cache && php artisan route:cache
+web: vendor/bin/heroku-php-nginx -C nginx.inc.conf public/

@@ -30,6 +30,19 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Application Cloud Provider
+    |--------------------------------------------------------------------------
+    |
+    | This value determines the "cloud environment" your application is
+    | currently running in. This may determine which request headers you may
+    | want to trust. Set this in your ".env" file.
+    |
+    */
+
+    'cloud_provider' => env('APP_CLOUD_PROVIDER', null),
+
+    /*
+    |--------------------------------------------------------------------------
     | Application Debug Mode
     |--------------------------------------------------------------------------
     |
