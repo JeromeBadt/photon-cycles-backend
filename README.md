@@ -1,10 +1,10 @@
-# Photon Cycles - Frontend
+# Photon Cycles - Backend
 
-Simple Express server with an Angular application including
+Laravel server with JWT authentication using
 
-* Bootstrap based CSS theme: [Bootswatch Superhero](https://bootswatch.com/superhero/)
-* JWT Authentification
-* Embedded WebGL game created in Unity.
+https://github.com/tymondesigns/jwt-auth
+
+
 
 #### The corresponding frontend application is located here:
 
