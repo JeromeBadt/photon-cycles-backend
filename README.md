@@ -8,7 +8,7 @@ https://github.com/tymondesigns/jwt-auth
 
 #### The corresponding frontend application is located here:
 
-https://github.com/JeromeBadt/photon-cycles-backend
+https://github.com/JeromeBadt/photon-cycles-frontend
 
 ***
 
